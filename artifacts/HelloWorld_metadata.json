@@ -95,6 +95,65 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "p1",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bool",
+						"name": "sex",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "p2",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bool",
+						"name": "sex",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "str",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -125,11 +184,11 @@
 	},
 	"sources": {
 		"hello.sol": {
-			"keccak256": "0xd09ab48a00a0b439310b603d60ac24674ecffa81d3639f2d1f23f5fcf78b2d47",
+			"keccak256": "0xe0af00e441ea261a9fb157390c9fa642eb8ebed73a02b1c3b1f7b4e96afed9f9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d0ca3afc88fa57f1aa2331a0f87cf1ccaefd64c2dc3b86bd5744042d5270daba",
-				"dweb:/ipfs/QmPWFWVTeVbuJQAwJ8DbsxFaPkn4gfcJEpWwP3PFiyZonK"
+				"bzz-raw://0368f9d568443610898f1409e3e17919c38e2faaf875692fd898ae472ed64290",
+				"dweb:/ipfs/QmTfrBpUEigzNSCzeTny8V1HtXSEyRy8JQvqZUNsUBRRci"
 			]
 		}
 	},

@@ -20,5 +20,23 @@ contract HelloWorld {
         Inactive
     }
 
-    
+    int256[] arr1;
+
+    string[] arr2;
+
+    address[] arr3;
+
+    string public str = "hello";
+
+    struct Person {
+        uint8 age;
+
+        bool sex;
+
+        string name;
+    }
+
+    Person public p1 = Person(0, true, "jack");
+
+    Person public p2 = Person({age:18,sex:false,name:"kimi"});
 }
