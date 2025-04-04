@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NestMapping.sol": "NestMapping"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NestMapping.sol": {
+			"keccak256": "0xdc08777aedf0773240ee7e5894fa3055ecb9aa0afd94b6e5539979012f7d673e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://deb44c7c3ed560222560727a37ea515d50c85b1d095e9c2f9164ea494fc4dbd1",
+				"dweb:/ipfs/QmTVpx25H25NiLRWDBs43CUH612Z3jpuSoga5g2pzWcfqw"
+			]
+		}
+	},
+	"version": 1
+}
