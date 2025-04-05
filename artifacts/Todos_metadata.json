@@ -1,0 +1,146 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_txt",
+						"type": "string"
+					}
+				],
+				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "txt",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "complated",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "txt",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "complated",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_complated",
+						"type": "bool"
+					}
+				],
+				"name": "toggleComplated",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_txt",
+						"type": "string"
+					}
+				],
+				"name": "updateTxt",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Todos.sol": "Todos"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Todo.sol": {
+			"keccak256": "0x3fd6720eb15a104df802739e9cde667568942eddf015ccab3742001b94fb938b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://376d6c3b5f56871e596219d0d8aa4310d7856c44cea324a730c22ea71d5c1bf8",
+				"dweb:/ipfs/Qmey8hEqLuzF8J1CW9Jubz5Bs3dgm7fq9FW9aeiTsqTc7u"
+			]
+		},
+		"Todos.sol": {
+			"keccak256": "0x74d0531c695bfe106b1b4ab7f090a3d8e1dc974c558f7023c43532e3fb56bac2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0a3a0716738ad34e1eb5cd8a18055858b30765533e2d7d9c011c34ca21bdaf2",
+				"dweb:/ipfs/QmRtUrGuGrDj8skyF16dwBxe5zWtd6FhHFD15RGZwUr91y"
+			]
+		}
+	},
+	"version": 1
+}
