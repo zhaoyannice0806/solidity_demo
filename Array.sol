@@ -32,7 +32,6 @@ contract Array {
     }
 
     function remove(uint256 index) public {
-        // delete 没有改变数组长度,只是将该位置值设置为0
         if (index >= getLength()) {
             return;
         }
