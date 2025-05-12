@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "addValue",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ErrorHandingDemo.sol": "ErrorHandingDemo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ErrorHandingDemo.sol": {
+			"keccak256": "0x914286c5d82c00a5bd2d6bc0455177fbebda6273869c26a82e9ec8772c490a22",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e887ac4d6ab61cbee74a17607e16684ae3b6799ddc57b10c94e2a82d1e56838f",
+				"dweb:/ipfs/QmZKsGGUmA4BQ6KGQRddAjzKNXqxzuuTtVeFn15YLJPCnM"
+			]
+		}
+	},
+	"version": 1
+}
